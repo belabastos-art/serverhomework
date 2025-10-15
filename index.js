@@ -38,7 +38,7 @@ app.get('/', (request, response) => {
 
 app.get('/about', (request, response) => {
   console.log(request);
-  response.send("P1 Data API");
+  response.send("P1 Data Server");
 });
 
 app.get("/data", (request, response) => {
